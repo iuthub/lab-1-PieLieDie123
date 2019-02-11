@@ -1,0 +1,9 @@
+[user]
+	mail = ssss2023@mail.ru
+	name = PieLieDie123
+	email = 47237816+pieliedie123@users.noreply.github.com
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
